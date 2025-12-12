@@ -204,4 +204,4 @@ SERVICE_URL = "http://localhost:5000"  # Ganti dengan URL service real
 
 ---
 
-Semoga sukses dengan Final Project-nya! 🎉
+Terimakasih sudah mencoba alat kami! 🎉
