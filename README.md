@@ -196,9 +196,11 @@ SERVICE_URL = "http://localhost:5000"  # Ganti dengan URL service real
 
 ## 👥 Tim
 
-- **Hardware & Firmware:** [Your Name]
-- **AI Model & Backend:** [Teman yang handle ServiceSICFP]
-- **Dashboard:** [Your Name]
+- **Hardware & Firmware:** [Yohanes Anthony Saputra]
+- **AI Model & Backend:** [Muhammad Nafal Rustanto]
+- **Dashboard:** [Yohanes Anthony Saputra]
+- **Elektronis** [Alfito Putra Parindra]
+- **Laporan Project** [Amelia Ocha Maharani]
 
 ---
 
