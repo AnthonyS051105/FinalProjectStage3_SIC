@@ -19,8 +19,7 @@ Deteksi Stress dan Tekanan Darah menggunakan Sensor PPG (MAX30102) dan DHT11.
 │   ├── app_new.py       # Dashboard yang digunakan
 │   └── requirements.txt # Python dependencies
 │
-├── ServiceSICFP/        # AI Service (dari teman)
-└── WESAD/, PPG_DATASET/ # Dataset
+└── ServiceSICFP/        # AI Service (download dari https://github.com/nafalrust/ServiceSICFP)
 ```
 
 ---
