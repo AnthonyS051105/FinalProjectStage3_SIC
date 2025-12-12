@@ -17,7 +17,6 @@ Deteksi Stress dan Tekanan Darah menggunakan Sensor PPG (MAX30102) dan DHT11.
 │
 ├── dashboard/            # Dashboard & Services
 │   ├── app_new.py       # Dashboard baru (gunakan ini!)
-│   ├── mock_service.py  # Mock AI Service untuk testing
 │   └── requirements.txt # Python dependencies
 │
 ├── ServiceSICFP/        # AI Service (dari teman)
@@ -54,20 +53,7 @@ Deteksi Stress dan Tekanan Darah menggunakan Sensor PPG (MAX30102) dan DHT11.
 
 ---
 
-### 2. Mock Service (Testing)
-
-Jalankan Mock Service terlebih dahulu untuk testing komunikasi:
-
-```bash
-cd dashboard
-python mock_service.py
-```
-
-Mock service akan berjalan di `http://localhost:5000` dan mengembalikan response dummy sesuai format yang diinginkan.
-
----
-
-### 3. Dashboard
+### 2. Dashboard
 
 **Jalankan Dashboard Baru:**
 
@@ -79,7 +65,7 @@ streamlit run app_new.py
 Dashboard akan otomatis:
 
 1. Subscribe ke MQTT topic `bp_data` dan `stress_data`
-2. Kirim data ke service (mock atau real)
+2. Kirim data ke service
 3. Tampilkan hasil prediksi:
    - **Blood Pressure:** Hypotension, Normal, Elevated, Hypertension 1/2, Crisis
    - **Stress:** Baseline, Stress, Amusement
